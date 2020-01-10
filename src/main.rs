@@ -1,12 +1,17 @@
 mod spotify_api;
 
+use rspotify::spotify::senum::Country;
+
 use spotify_api::credentials;
 
 fn main() {
     let spotify = credentials::get_spotify();
 
-    let uri = "spotify:artist:2WX2uTcsvV5OnS0inACecP"; 
-    let artist = spotify.artist(uri);
+    let q = "White Buffalo";
+    let result = spotify.search_artist(q, 10, 0, Some(Country::UnitedStates));
 
-    println!("artist: {:?}", artist);
+    let birdy_uri = "spotify:artist:2WX2uTcsvV5OnS0inACecP";
+    let artist = spotify.artist(birdy_uri);
+
+    println!("artist: {:?}", result);
 }
