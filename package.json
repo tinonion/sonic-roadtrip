@@ -1,7 +1,8 @@
 {
-  "author": "You <you@example.com>",
-  "name": "rust-webpack-template",
+  "author": "W. Hunter Jones",
+  "name": "sonic-roadtrip",
   "version": "0.1.0",
+  "main": "index.js",
   "scripts": {
     "build": "rimraf dist pkg && webpack",
     "start": "rimraf dist pkg && webpack-dev-server --open -d",
@@ -13,6 +14,8 @@
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.3",
     "webpack-dev-server": "^3.7.1",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
