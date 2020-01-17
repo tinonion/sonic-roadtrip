@@ -1,4 +1,9 @@
+.searchRow {
+    height: 40px;
+}
+
 .searchBar {
+    height: 30px;
     padding: 5px;
     float: left;
 }

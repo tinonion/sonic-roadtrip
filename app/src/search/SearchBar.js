@@ -10,8 +10,8 @@ const SearchBar = () => {
     })
 
     return (
-        <div className="searchBar">
-            <form>
+        <div className="searchRow">
+            <form className="searchBar">
                 <input type="text" name="search artist" onChange={handleInputChange} />
             </form>
         </div>

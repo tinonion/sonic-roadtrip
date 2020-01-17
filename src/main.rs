@@ -7,7 +7,7 @@ use spotify_api::credentials;
 fn main() {
     let spotify = credentials::get_spotify();
 
-    let q = "White Buffalo";
+    let q = "Led Zeppelin";
     let result = spotify.search_artist(q, 10, 0, Some(Country::UnitedStates));
 
     let birdy_uri = "spotify:artist:2WX2uTcsvV5OnS0inACecP";

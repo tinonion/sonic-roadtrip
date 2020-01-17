@@ -1,5 +1,6 @@
-.ArtistSearch {
-    height: 40vh;
-    width: 20vw;
+.artistSearch {
+    height: 450px;
+    width: 300px;
     background-color: #282c34;
+    display: block;
 }

@@ -1,0 +1,11 @@
+.artistResult {
+    height: 100px;
+    padding: 5px;
+}
+
+.artistImage {
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding-left: 5px;
+}
