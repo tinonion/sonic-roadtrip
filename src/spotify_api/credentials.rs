@@ -7,7 +7,7 @@ use rspotify::spotify::oauth2::SpotifyClientCredentials;
 const CLIENT_ID_PATH: &str = "res/client_id";
 const CLIENT_SECRET_PATH: &str = "res/client_secret";
 
-pub fn get_spotify() -> Spotify {
+pub fn create_spotify() -> Spotify {
     let client_id = get_client_id();
     let client_secret = get_client_secret();
 
